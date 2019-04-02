@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:gravity="bottom"
+    android:minWidth="@dimen/dialog_layout_minWidth"
+    android:minHeight="@dimen/dialog_layout_minHeight"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <!-- ask questions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_textView_height"
+        android:layout_marginStart="@dimen/dialog_textView_margin"
+        android:layout_marginEnd="@dimen/dialog_textView_margin"
+        android:layout_weight="1.5"
+        android:background="@drawable/question_container"
+        android:gravity="center"
+        android:text="@string/dialog_withdraw_sure"
+        android:textColor="@android:color/white" />
+
+    <!-- button container -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_layout_height"
+        android:layout_marginStart="@dimen/dialog_layout_margin"
+        android:layout_marginTop="@dimen/dialog_layout_marginTop"
+        android:layout_marginEnd="@dimen/dialog_layout_margin"
+        android:layout_marginBottom="@dimen/dialog_layout_marginBottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Yes button -->
+        <Button
+            android:id="@+id/buttonYes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/dialog_button_margin"
+            android:background="@drawable/inputbutton"
+            android:text="@string/dialog_yes"
+            android:textAllCaps="false"
+            android:textColor="@drawable/inputbuttontextcolor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/buttonNo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- No button -->
+        <Button
+            android:id="@+id/buttonNo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/dialog_button_margin"
+            android:background="@drawable/inputbutton"
+            android:text="@string/dialog_no"
+            android:textAllCaps="false"
+            android:textColor="@drawable/inputbuttontextcolor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/buttonYes"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

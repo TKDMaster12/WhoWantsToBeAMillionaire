@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionsArrayList>
+    <questions>
+        <question>In Roman numeric what is the letter "M"?</question>
+        <a>100</a>
+        <b>1000</b>
+        <c>500</c>
+        <d>50</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>What does "WWW" means?</question>
+        <a>World Wide Web</a>
+        <b>Web Week Web</b>
+        <c>World Wrestling Web</c>
+        <d>We Were Web</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>What is the symbol of Gold?</question>
+        <a>Gd</a>
+        <b>Or</b>
+        <c>Gi</c>
+        <d>Au</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>In Roman numerals what is the letter "C" ?</question>
+        <a>75</a>
+        <b>100</b>
+        <c>5</c>
+        <d>1000</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>If you were born on November 20, what sign are you?</question>
+        <a>Leo</a>
+        <b>Libra</b>
+        <c>Scorpio</c>
+        <d>Gemini</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>What is the unit of currency in Greece?</question>
+        <a>Euro</a>
+        <b>Dracma</b>
+        <c>Lira</c>
+        <d>Greek dollar</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>In what children's game are participants chased by someone designated It?</question>
+        <a>Tag</a>
+        <b>Simon Says</b>
+        <c>Charades</c>
+        <d>Hopscotch</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>On a radio, stations are changed by using what control?</question>
+        <a>Tuning</a>
+        <b>Volume</b>
+        <c>Bass</c>
+        <d>Treble</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Which material is most dense?</question>
+        <a>Silver</a>
+        <b>Styrofoam</b>
+        <c>Butter</c>
+        <d>Gold</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>Which state in the United States is largest by area?</question>
+        <a>Alaska</a>
+        <b>California</b>
+        <c>Texas</c>
+        <d>Hawaii</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Who was the director of the film "E.T."?</question>
+        <a>A Parker</a>
+        <b>P Jackson</b>
+        <c>R Scott</c>
+        <d>S Spielberg</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>Leonardo da Vinci</question>
+        <a>was a great Italian painter, sculptor and architect</a>
+        <b>got universal fame form his masterpiece &quot;Mona lisa&quot;</b>
+        <c>drew models of organs such as the heart, lungs and womb</c>
+        <d>All of the above</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>Ecology deals with</question>
+        <a>Birds</a>
+        <b>Cell formation</b>
+        <c>Relation between organisms and their environment</c>
+        <d>Tissues</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>What is the national emblem of Canada?</question>
+        <a>Maple Leaf</a>
+        <b>Brown Bear</b>
+        <c>Maple Syrup</c>
+        <d>Waffle</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>When you enter a situation without a definite plan of action, you are said to be playing it by what?</question>
+        <a>Fingertips</a>
+        <b>Ear</b>
+        <c>Nose</c>
+        <d>Mouth</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>When did US astronauts Neil Armstrong and Edwin E. Aldrin land on the moon?</question>
+        <a>July 21, 1969</a>
+        <b>July 21, 1970</b>
+        <c>July 21, 1963</c>
+        <d>July 21, 1972</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>The US declared war on which country after the bombing of Pearl Harbor?</question>
+        <a>Japan</a>
+        <b>Russia</b>
+        <c>Germany</c>
+        <d>China</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Which country is largest by area?</question>
+        <a>UK</a>
+        <b>USA</b>
+        <c>Russia</c>
+        <d>China</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>What does the &quot;F&quot; stand for in FBI?</question>
+        <a>Foreign</a>
+        <b>Federal</b>
+        <c>Flappy</c>
+        <d>Face</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>Which part of the body are you most likely to &quot;stub&quot;?</question>
+        <a>Toe</a>
+        <b>Knee</b>
+        <c>Elbow</c>
+        <d>Brain</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>In the U.S., if it&#x27;s not Daylight Saving Time, it&#x27;s what?</question>
+        <a>Borrowed time</a>
+        <b>Overtime</b>
+        <c>Standard time</c>
+        <d>Party time</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>What is the color of New York taxi?</question>
+        <a>Yellow</a>
+        <b>Red</b>
+        <c>Green</c>
+        <d>Blue</d>
+        <response>A</response>
+    </questions>
+</questionsArrayList>

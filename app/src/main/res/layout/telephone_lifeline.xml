@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/phone_lifeline_layout_padding"
+        android:weightSum="4">
+
+        <!-- top container -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/phone_lifeline_layout_height"
+            android:layout_marginStart="@dimen/phone_lifeline_layout_margin"
+            android:layout_marginEnd="@dimen/phone_lifeline_layout_margin"
+            android:layout_weight="1"
+            android:background="@color/telephone_black"
+            android:gravity="center">
+
+            <!-- phone icon -->
+            <ImageView
+                android:id="@+id/phone_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/phone_lifeLine_icon"
+                android:padding="@dimen/phone_lifeline_image_padding"
+                android:src="@drawable/phone_icon" />
+
+            <!-- calling message -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/phone_icon"
+                android:gravity="center_vertical"
+                android:text="@string/phone_lifeLine_calling"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <!-- response from caller -->
+        <TextView
+            android:id="@+id/phoneAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/phone_lifeline_textView_height"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/phone_lifeline_textView_margin"
+            android:layout_marginEnd="@dimen/phone_lifeline_textView_margin"
+            android:layout_marginBottom="@dimen/phone_lifeline_textView_marginBottom"
+            android:layout_weight="2"
+            android:background="@drawable/phone_answer"
+            android:gravity="top"
+            android:paddingStart="@dimen/phone_lifeline_textView_padding"
+            android:paddingTop="@dimen/phone_lifeline_textView_margin"
+            android:paddingEnd="@dimen/phone_lifeline_textView_padding"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <!-- thank you button -->
+        <Button
+            android:id="@+id/btn_thankYou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/inputbutton"
+            android:text="@string/phone_lifeLine_thanks"
+            android:textAllCaps="false"
+            android:textColor="@drawable/inputbuttontextcolor" />
+
+    </LinearLayout>
+</LinearLayout>

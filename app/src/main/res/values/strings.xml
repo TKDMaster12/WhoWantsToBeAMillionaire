@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Who Wants To Be A Millionaire</string>
+
+    <!-- strings for score_list -->
+    <string name="score_list_highest_score">HIGHEST SCORES</string>
+    <string name="score_list_toScore">To Score</string>
+    <string name="score_list_toDate">To Date</string>
+    <string name="score_list_clear">Clear</string>
+
+    <!-- strings for main menu -->
+    <string name="main_menu_millionaireLogo">Logo of Millionaire</string>
+    <string name="main_menu_sound">Sound</string>
+    <string name="main_menu_start_game">START GAME</string>
+    <string name="main_menu_quit">QUIT</string>
+
+    <!-- strings for phone_lifeline -->
+    <string name="phone_lifeLine_thanks">Thank you!</string>
+    <string name="phone_lifeLine_calling">Calling Mr Smith&#8230;</string>
+    <string name="phone_lifeLine_icon">Phone Icon</string>
+
+    <!-- strings for audience_lifeline -->
+    <string name="audience_lifeLine_okay">Okay</string>
+    <string name="audience_lifeLine_answer">Ask the Audience</string>
+    <string name="audience_lifeLine_100">100.0</string>
+    <string name="audience_lifeLine_90">90.0</string>
+    <string name="audience_lifeLine_80">80.0</string>
+    <string name="audience_lifeLine_70">70.0</string>
+    <string name="audience_lifeLine_60">60.0</string>
+    <string name="audience_lifeLine_50">50.0</string>
+    <string name="audience_lifeLine_40">40.0</string>
+    <string name="audience_lifeLine_30">30.0</string>
+    <string name="audience_lifeLine_20">20.0</string>
+    <string name="audience_lifeLine_10">10.0</string>
+    <string name="audience_lifeLine_0">0.0</string>
+    <string name="audience_lifeLine_a">A</string>
+    <string name="audience_lifeLine_b">B</string>
+    <string name="audience_lifeLine_c">C</string>
+    <string name="audience_lifeLine_d">D</string>
+    <string name="audience_lifeLine_column">Column on how many votes from audience</string>
+
+    <!-- strings for game_score -->
+    <string name="game_score_menu">Main Menu</string>
+    <string name="game_score_logo">Millionaire Logo</string>
+
+    <!-- strings for game class -->
+    <string name="game_over">Game is OVER\nYour reward:</string>
+    <string name="game_over_final">Congratulations!!! You Complete the Millionaire Competition Successfully</string>
+
+
+    <!-- strings for game_screen -->
+    <string name="game_screen_100">$100</string>
+    <string name="game_screen_200">$200</string>
+    <string name="game_screen_300">$300</string>
+    <string name="game_screen_500">$500</string>
+    <string name="game_screen_1000">$1,000</string>
+    <string name="game_screen_2000">$2,000</string>
+    <string name="game_screen_4000">$4,000</string>
+    <string name="game_screen_8000">$8,000</string>
+    <string name="game_screen_16000">$16,000</string>
+    <string name="game_screen_32000">$32,000</string>
+    <string name="game_screen_64000">$64,000</string>
+    <string name="game_screen_125000">$125,000</string>
+    <string name="game_screen_250000">$250,000</string>
+    <string name="game_screen_500000">$500,000</string>
+    <string name="game_screen_1000000">$1,000,000</string>
+    <string name="game_screen_withdraw">WITHDRAW</string>
+    <string name="game_screen_timer">99</string>
+    <string name="game_screen_5050">fifty fifty life line</string>
+    <string name="game_screen_audience">ask the audience life line</string>
+    <string name="game_screen_phone">phone a friend life line</string>
+
+    <!-- strings for dialog -->
+    <string name="dialog_withdraw_sure">Are you sure you want to withdraw?</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_yes">Yes</string>
+
+    <!-- strings for ScoreAdapter -->
+    <string name="currency">$</string>
+    <string name="second">Sec</string>
+    <string name="point">Point</string>
+
+    <!-- strings for splash page-->
+    <string name="splash_image">Picture of Logo</string>
+
+
+</resources>

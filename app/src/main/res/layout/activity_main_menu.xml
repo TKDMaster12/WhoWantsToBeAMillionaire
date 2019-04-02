@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context=".MainMenu">
+
+    <RelativeLayout
+        android:layout_width="@dimen/main_menu_RelativeLayout_width"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <!-- image logo -->
+        <ImageView
+            android:id="@+id/millionaire_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/main_menu_image_margin"
+            android:contentDescription="@string/main_menu_millionaireLogo"
+            android:padding="@dimen/main_menu_image_padding"
+            android:src="@drawable/millionaire" />
+
+        <!-- container of switch -->
+        <LinearLayout
+            android:layout_width="@dimen/main_menu_LinearLayout_width"
+            android:layout_height="@dimen/main_menu_LinearLayout_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_inactive"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- switch for music -->
+            <Switch
+                android:id="@+id/openVoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/main_menu_sound"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- menu container -->
+    <RelativeLayout
+        android:layout_width="@dimen/main_menu_RelativeLayout_width"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/main_menu_LinearLayout_padding">
+
+        <!-- start button -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/main_menu_button_margin"
+            android:background="@drawable/inputbutton"
+            android:onClick="newGame"
+            android:text="@string/main_menu_start_game"
+            android:textColor="@drawable/inputbuttontextcolor" />
+
+        <!-- highscore button -->
+        <Button
+            android:id="@+id/highScoreButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/main_menu_button_margin"
+            android:background="@drawable/inputbutton"
+            android:onClick="highScore"
+            android:text="@string/score_list_highest_score"
+            android:textColor="@drawable/inputbuttontextcolor" />
+
+        <!-- quit button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/highScoreButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/main_menu_button_margin"
+            android:background="@drawable/inputbutton"
+            android:onClick="quit"
+            android:text="@string/main_menu_quit"
+            android:textColor="@drawable/inputbuttontextcolor" />
+
+    </RelativeLayout>
+</LinearLayout>

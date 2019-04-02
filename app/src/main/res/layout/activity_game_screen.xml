@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="7"
+    tools:context=".GameScreen">
+
+    <LinearLayout
+        android:layout_width="@dimen/game_screen_layout_width"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/game_screen_layout_height"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/FiftyFiftyLifeLine"
+                android:layout_width="@dimen/game_screen_imageButton_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/game_screen_imageButton_margin"
+                android:layout_marginEnd="@dimen/game_screen_imageButton_margin"
+                android:background="@null"
+                android:contentDescription="@string/game_screen_5050"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fiftyfifty_life_line" />
+
+            <ImageButton
+                android:id="@+id/audienceLifeLine"
+                android:layout_width="@dimen/game_screen_imageButton_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/game_screen_imageButton_margin"
+                android:layout_marginEnd="@dimen/game_screen_imageButton_margin"
+                android:background="@null"
+                android:contentDescription="@string/game_screen_audience"
+                android:scaleType="fitCenter"
+                android:src="@drawable/audience_life_line" />
+
+            <ImageButton
+                android:id="@+id/phoneLifeLine"
+                android:layout_width="@dimen/game_screen_imageButton_width"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/game_screen_imageButton_margin"
+                android:layout_marginEnd="@dimen/game_screen_imageButton_margin"
+                android:background="@null"
+                android:contentDescription="@string/game_screen_phone"
+                android:scaleType="fitCenter"
+                android:src="@drawable/phone_life_line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/game_screen_layout_height"
+            android:layout_weight="5"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/game_screen_layout_padding"
+            android:paddingEnd="@dimen/game_screen_layout_padding"
+            android:paddingBottom="@dimen/game_screen_layout_paddingBottom">
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="@dimen/game_screen_textView_width"
+                android:layout_height="@dimen/game_screen_textView_width"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/game_screen_textView_margin"
+                android:background="@drawable/timer_background"
+                android:gravity="center"
+                android:text="@string/game_screen_timer"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/questionContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/question_container"
+                android:gravity="center"
+                android:padding="@dimen/game_screen_textView_margin"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/answerA"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="@dimen/game_screen_Button_width"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/game_screen_Button_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/default_question"
+                        android:padding="@dimen/game_screen_Button_padding"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/game_screen_Button_textSize" />
+
+                    <Button
+                        android:id="@+id/answerB"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="@dimen/game_screen_Button_width"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/game_screen_Button_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/default_question"
+                        android:padding="@dimen/game_screen_Button_padding"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/game_screen_Button_textSize" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/answerC"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="@dimen/game_screen_Button_width"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/game_screen_Button_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/default_question"
+                        android:padding="@dimen/game_screen_Button_padding"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/game_screen_Button_textSize" />
+
+                    <Button
+                        android:id="@+id/answerD"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="@dimen/game_screen_Button_width"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/game_screen_Button_margin"
+                        android:layout_weight="1"
+                        android:background="@drawable/default_question"
+                        android:padding="@dimen/game_screen_Button_padding"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/game_screen_Button_textSize" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="@dimen/game_screen_layout_width"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/round15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/money_queue"
+            android:text="@string/game_screen_1000000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <Button
+            android:id="@+id/round14"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_500000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round15" />
+
+        <Button
+            android:id="@+id/round13"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_250000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round14" />
+
+        <Button
+            android:id="@+id/round12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_125000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round13" />
+
+        <Button
+            android:id="@+id/round11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_64000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round12" />
+
+        <Button
+            android:id="@+id/round10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/money_queue"
+            android:text="@string/game_screen_32000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round11" />
+
+        <Button
+            android:id="@+id/round9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_16000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round10" />
+
+        <Button
+            android:id="@+id/round8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_8000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round9" />
+
+        <Button
+            android:id="@+id/round7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_4000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round8" />
+
+        <Button
+            android:id="@+id/round6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_2000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round7" />
+
+        <Button
+            android:id="@+id/round5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/money_queue"
+            android:text="@string/game_screen_1000"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round6" />
+
+        <Button
+            android:id="@+id/round4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_500"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round5" />
+
+        <Button
+            android:id="@+id/round3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_300"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round4" />
+
+        <Button
+            android:id="@+id/round2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_200"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/round1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round3" />
+
+        <Button
+            android:id="@+id/round1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/default_money"
+            android:text="@string/game_screen_100"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/withdrawal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round2" />
+
+        <Button
+            android:id="@+id/withdrawal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/game_screen_Button_margin"
+            android:background="@drawable/withdraw_background"
+            android:text="@string/game_screen_withdraw"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/round1" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

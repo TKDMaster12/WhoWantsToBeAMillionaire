@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionsArrayList>
+    <questions>
+        <question>Which Golf player is known as the White Shark?</question>
+        <a>Greg Norman</a>
+        <b>Woods</b>
+        <c>I.Ballesteros</c>
+        <d>Jack Nicklaus</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>What is the capital of Russia?</question>
+        <a>Leningrad</a>
+        <b>Kiev</b>
+        <c>Moscow</c>
+        <d>Orsk</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>Who said "Dadum tractum cst"?</question>
+        <a>J Caesar</a>
+        <b>Jesus</b>
+        <c>Napoleon</c>
+        <d>Hannibal</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Who was the ancient Egyptian god of the Sun?</question>
+        <a>Anubi</a>
+        <b>Ra</b>
+        <c>Horus</c>
+        <d>Anulu</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>What is the nit of currency in Northern Ireland?</question>
+        <a>Pound</a>
+        <b>Euro</b>
+        <c>Dollar</c>
+        <d>Lira</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Exposure to sunlight helps a person improve his health because</question>
+        <a>the infrared light kills bacteria in the body</a>
+        <b>resistance power increases</b>
+        <c>the pigment cells in the skin get stimulated and produce a healthy tan</c>
+        <d>the ultraviolet rays convert skin oil into Vitamin D</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>When is the International Workers&#x27; Day?</question>
+        <a>15th April</a>
+        <b>12th December</b>
+        <c>1st May</c>
+        <d>1st August</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>When did China test their first atomic device?</question>
+        <a>1962</a>
+        <b>1963</b>
+        <c>1964</c>
+        <d>1965</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>The headquarters of UN are situated at</question>
+        <a>New York, USA</a>
+        <b>Haque (Netherlands)</b>
+        <c>Geneva</c>
+        <d>Paris</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>What is commonly known as the &quot;Emerald City&quot; in the United States?
+        </question>
+        <a>Palos Verdes, CA</a>
+        <b>Seattle, WA</b>
+        <c>New York, NY</c>
+        <d>Dallas, TX</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>What is the name of the largest freshwater lake in the world?</question>
+        <a>Lake Union</a>
+        <b>Lake Superior</b>
+        <c>Lake Largest</c>
+        <d>Lake Goodwin</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>An albino gorilla usually has what color fur?</question>
+        <a>Brown</a>
+        <b>Black</b>
+        <c>White</c>
+        <d>Golden</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>What is the S.I. unit of temperature?</question>
+        <a>Kelvin</a>
+        <b>Celsius</b>
+        <c>Centigrade</c>
+        <d>Fahrenheit</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>An electron volt is</question>
+        <a>The amount of energy it takes to move an electron through a potential difference of 1 volt</a>
+        <b>The number of volts it takes to move an electon a meter</b>
+        <c>The number of electrons it takes to kill a human being</c>
+        <d>The flux of current through a surface parallel to a capacitor</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>A guarantee to an exporter that the importer of his goods will pay immediately for the goods ordered by him, is known as</question>
+        <a>Letter of Credit (L/C)</a>
+        <b>laissezfaire</b>
+        <c>inflation</c>
+        <d>None of the above</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>The ozone layer restricts</question>
+        <a>Visible light</a>
+        <b>Infrared radiation</b>
+        <c>X-rays and gamma rays</c>
+        <d>Ultraviolet radiation</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>Bacchus and Dionysus are both the gods of what?</question>
+        <a>Wine</a>
+        <b>Wisdom</b>
+        <c>Warfare</c>
+        <d>Sun</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>What is the capital of Bulgaria?</question>
+        <a>Bucharest</a>
+        <b>Budapest</b>
+        <c>Sofia</c>
+        <d>Kiev</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>What is the capital of Romania?</question>
+        <a>Bucharest</a>
+        <b>Budapest</b>
+        <c>Sofia</c>
+        <d>Kiev</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Who was the ancient Roman god of warfare?</question>
+        <a>Ares</a>
+        <b>Mercury</b>
+        <c>Dionysus</c>
+        <d>Mars</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>Who is Cupid's equivalent in Greek mythology?</question>
+        <a>Apollo</a>
+        <b>Eros</b>
+        <c>Saturn</c>
+        <d>Jupiter</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>Galileo was an Italian astronomer who ...</question>
+        <a>developed the telescope</a>
+        <b>developed the telescope</b>
+        <c>discovered that the movement of pendulum produces a regular time measurement</c>
+        <d>All of the above</d>
+        <response>D</response>
+    </questions>
+</questionsArrayList>

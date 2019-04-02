@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionsArrayList>
+    <questions>
+        <question>In which city is the "Heathrow" airport?</question>
+        <a>London</a>
+        <b>Glasgow</b>
+        <c>Dublin</c>
+        <d>Milan</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Who wrote "Les Fleurs du Mal"?</question>
+        <a>Baudelaire</a>
+        <b>Verlaine</b>
+        <c>Flaubert</c>
+        <d>Proust</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>In which capital city would you find "Piccadilly" circus?</question>
+        <a>New York</a>
+        <b>London</b>
+        <c>Dublin</c>
+        <d>Paris</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>Where in the human body is the "Phalanx"?</question>
+        <a>In the heart</a>
+        <b>In the head</b>
+        <c>In the ear</c>
+        <d>In the hand</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>Which Russian leader introduced "Perestroika"?</question>
+        <a>Marx</a>
+        <b>Putin</b>
+        <c>Stalin</c>
+        <d>Gorbachev</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>Who invented cinema?</question>
+        <a>Brother Cinemas</a>
+        <b>Brother Lumiere</b>
+        <c>Brother Wright</c>
+        <d>Brother Sandish</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>Sir Thomas Fearnley Cup is awarded to</question>
+        <a>a club or a local sport association for remarkable achievements</a>
+        <b>amateur athlete, not necessarily an Olympian</b>
+        <c>National Olympic Committee for outstanding work</c>
+        <d>None of the above</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Oscar Awards were instituted in</question>
+        <a>1968</a>
+        <b>1929</b>
+        <c>1901</c>
+        <d>1965</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>When did Margaret Thatcher became the first female Prime Minister of Britain?</question>
+        <a>1998</a>
+        <b>1989</b>
+        <c>1979</c>
+        <d>1800</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>Who invented dynamite?</question>
+        <a>Enrico Ferml</a>
+        <b>Albert Einstein</b>
+        <c>Alfred Nobel</c>
+        <d>Benjamin Franklin</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>Where in the human body is the "Alveolus"?</question>
+        <a>In the Lung</a>
+        <b>In the Liver</b>
+        <c>In the Heart</c>
+        <d>In the Brain</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Where would you find the stadium "Old Trafford"?</question>
+        <a>Liverpool</a>
+        <b>Manchester</b>
+        <c>London</c>
+        <d>Madrid</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>What is Aurora Borealis commonly known as?</question>
+        <a>Fairy Dust</a>
+        <b>Northern Lights</b>
+        <c>Book of ages</c>
+        <d>a Game of Thrones main character</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>When did Commander Robert Peary discover the North Pole?</question>
+        <a>1904</a>
+        <b>1905</b>
+        <c>1908</c>
+        <d>1909</d>
+        <response>D</response>
+    </questions>
+    <questions>
+        <question>What is the population density of Kerala?</question>
+        <a>819/sq. km</a>
+        <b>602/sq. km</b>
+        <c>415/sq. km</c>
+        <d>500/sq. km</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>What is the range of missile &#x27;Akash&#x27;?</question>
+        <a>4 km</a>
+        <b>25 km</b>
+        <c>500 m to 9 km</c>
+        <d>150 km</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>Fa-Hien was</question>
+        <a>the first Buddhist pilgrim of China to visit India during the reign of Chandragupta Vikramaditya</a>
+        <b>the discoverer of Puerto Rico and Jamaica</b>
+        <c>the first Buddhist pilgrim of India to visit China</c>
+        <d>None of the above</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>What was the first university in the United States?</question>
+        <a>Harvard</a>
+        <b>University of Washington</b>
+        <c>Yale</c>
+        <d>Oxford</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>When is the World&#x27;s Diabetes Day?</question>
+        <a>14th November</a>
+        <b>11th December</b>
+        <c>15th October</c>
+        <d>1st July</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>When cream is separated from milk</question>
+        <a>the density of milk increases</a>
+        <b>the density of milk decreases</b>
+        <c>the density of milk remains unchanged</c>
+        <d>it becomes more viscous</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>When did 19 NATO members and 11 &#x27;Partners for Peace&#x27; join hands for peace plan for Kosovo Crisis?</question>
+        <a>1999</a>
+        <b>1989</b>
+        <c>1979</c>
+        <d>1969</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>The escape velocity of a rocket fired from the earth towards the moon is the velocity required to overcome</question>
+        <a>Earth&#x27;s gravitational pull</a>
+        <b>Moon&#x27;s gravitational pull</b>
+        <c>Centripetal force due to the earth&#x27;s rotation</c>
+        <d>Pressure of the atmosphere</d>
+        <response>A</response>
+    </questions>
+    <questions>
+        <question>Hamid Karzai was chosen president of Afghanistan in</question>
+        <a>2000</a>
+        <b>2001</b>
+        <c>2002</c>
+        <d>2003</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>When a moving bus stops suddenly, the passenger are pushed forward because of the</question>
+        <a>friction between the earth and the bus</a>
+        <b>friction between the passengers and the earth</b>
+        <c>inertia of the passengers</c>
+        <d>inertia of the bus</d>
+        <response>C</response>
+    </questions>
+    <questions>
+        <question>When and where was hockey introduced for women in Olympics?</question>
+        <a>1908 at London</a>
+        <b>1980 at Moscow</b>
+        <c>1936 at Berlin</c>
+        <d>1924 at Paris</d>
+        <response>B</response>
+    </questions>
+    <questions>
+        <question>Lime is sometimes applied to soil in order to</question>
+        <a>increase the alkalinity of the soil</a>
+        <b>increase the acidity of the soil</b>
+        <c>restore nitrates to the soil</c>
+        <d>make the soil more porous</d>
+        <response>A</response>
+    </questions>
+</questionsArrayList>
